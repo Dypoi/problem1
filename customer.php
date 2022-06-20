@@ -40,9 +40,9 @@ if(isset($_POST['id'])){
  $no = 1;
  $data = mysqli_query ($conn, "select 
 										id,
-                                        name,
+                                        					name,
 										email,
-                                        address,
+                                        					address,
 										phone,
 										password,
 										user_type
